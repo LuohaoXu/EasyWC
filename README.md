@@ -52,4 +52,5 @@ obj.init()
 
 
 ### show
+
 ![](https://github.com/LuohaoXu/EasyWC/blob/main/examples/wc.png?raw=true)
