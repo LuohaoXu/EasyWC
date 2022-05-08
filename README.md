@@ -50,48 +50,6 @@ obj.clickEvent = f.name
 obj.init()
 ```
 
-### 用法
-- 在你的网页上引入EasyWC.
-```html
-<script src="EasyWC.js"></script>
-```
-
-- 创建一个html元素作为词云的容器
-```html
-<div id="wc"></div>
-```
-
-- new 一个 EasyWC 对象
-```javascript
-let dict = { 'E-Commerce' : 4, 'Agriculture' : 2, 'Logistics' : 3, 'Traffic' : 1 }
-let obj =new EasyWC("wc", dict)
-```
-- 在初始化之前，为词云添加点击事件. word和count是必须要有的参数，你可以不去使用它们
-```javascript
-f = function(word, count){
-        alert(word + " has been clicked!")
-}
-obj.clickEvent = f.name
-```
-
-- 一些你可以修改的其他属性
-
-| Attribute      | Default |
-| --------- | -----:|
-| lowerFontsize  | 16 |
-| upperFontsize     |   36 |
-| clickEvent      |    none |
-| colors |  ['#ff3366', '#B03060', '#9999ff', '#339933','#F08080','#EE9A00', '#4169E1', '#6959CD','#CD2990', '#2E8B57']  |
-
-- 初始化EasyWC
-```javascript
-obj.init()
-```
-
 
 ### show
-![](https://github.com/LuohaoXu/EasyWC/blob/main/examples/wc.png?raw=true)
-
-
-### 展示
 ![](https://github.com/LuohaoXu/EasyWC/blob/main/examples/wc.png?raw=true)
