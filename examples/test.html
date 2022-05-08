@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<script src="../src/EasyWC.js"></script>
+<body>
+<div id="test"></div>
+<script>
+let dict = {'E-Commerce':4, 'Agriculture':2, 'Logistics':3, 'Traffic':1}
+
+let obj =new EasyWC("test", dict)
+
+f = function(word, count){
+alert(word + " has been clicked!")
+}
+obj.clickEvent = f.name
+obj.init()
+</script>
+</body>
+</html>
